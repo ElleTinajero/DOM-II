@@ -20,12 +20,12 @@ function logSubmit(event) {
   const log = document.getElementById('log');
   form.addEventListener('submit', logSubmit);
 
-//button event//
+//button click count event//
 
-const button = document.querySelector(".btn");
+const button = document.querySelector("#funButton");
 
 button.addEventListener('click', event => {
-  button.innerHTML = `Click count: ${event.detail}`;
+  button.innerHTML = `Fun Times: ${event.detail}`;
 });
 
 
