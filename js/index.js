@@ -29,26 +29,23 @@ button.addEventListener('click', event => {
 });
 
 
+//message event//
+
+const messageEvent = document.getElementsByClassName('btn');
+console.log(messageEvent);
+
+function callback() {
+  alert('You Signed Up! Congratulations!!!!');
+}
+
+messageEvent[0].addEventListener('click', callback);
+messageEvent[1].addEventListener('click', callback);
+messageEvent[2].addEventListener('click', callback);
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//---------------------------------still need more understanding------------------------------------------------------------------//
+//---------------------------------------------------------------------------------------------------//
 //DRAG EVENT//
 var dragged;
 
