@@ -81,6 +81,23 @@
       </div>
     </section>
   </div><!-- container -->
+  
+  <section class="dragEvent">
+    <div class="dropzone"> 
+      <div id="draggable" draggable="true" ondragstart="event.dataTransfer.setData('text/plain',null)"> 
+        <p>Sign Me Up!</p> 
+      </div> 
+    </div> 
+    <div class="dropzone"></div>
+    <div class="dropzone"></div> 
+  </section>
+
+  <form id="form">
+    <label>Sign Our Petition: <input type="text"></label>
+    <br><br>
+    <button type="submit">Sign</button>
+  </form>
+  <p id="log"></p>
 
   <footer class="footer">
     <p>Copyright Fun Bus 2018</p>
