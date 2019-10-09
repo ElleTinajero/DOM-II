@@ -226,6 +226,12 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
+.footer #mouseTarget {
+  box-sizing: border-box;
+  width: 15rem;
+  border: 1px solid #333;
+  margin: 0 auto;
+}
 .home .intro {
   padding: 90px 0 10px;
   border-bottom: 2px dashed #C0C0C0;
